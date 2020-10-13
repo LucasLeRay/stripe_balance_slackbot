@@ -1,0 +1,14 @@
+{
+  "name": "stripe_balance_slackbot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@slack/bolt": "^2.4.1",
+    "dotenv": "^8.2.0",
+    "stripe": "^8.111.0"
+  }
+}
